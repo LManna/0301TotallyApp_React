@@ -13,7 +13,7 @@ so when I study the react-native, I will build a program basing on express and w
         里面会让你配置一些项目名称等一些项目信息，注意，一般项目名称不让大写；
         还要配置一下你的出口输出js文件是默认的index.js 还是自定义
     4.安装react依赖
-```java 
-npm install react react-dom --save
-```
+        ```java 
+        npm install react react-dom --save
+        ```
 

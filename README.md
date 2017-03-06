@@ -84,12 +84,12 @@ module:{
     import ReactDOM from "react-dom";
 ```
 ##关于上面项目说明：
-*当前的项目是单入口，仅仅针对入门级别做个记录，参照react的api进行研发实现功能
-*项目主要有两个页面，页面需要切换，更改配置才能看到另外一个；
-*当前显示的页面功能是：list页面，主要实现form提交表单即时更新列表，还有点击按钮实现写入的颜色切换；
+* 当前的项目是单入口，仅仅针对入门级别做个记录，参照react的api进行研发实现功能
+* 项目主要有两个页面，页面需要切换，更改配置才能看到另外一个；
+* 当前显示的页面功能是：list页面，主要实现form提交表单即时更新列表，还有点击按钮实现写入的颜色切换；
 ![listPNG](https://github.com/LManna/0301TotallyApp_React/blob/master/img/list.png)
-*index的功能主要针对react-router实现页面无刷新更换内容，如果想看到index的文件，需要在webpack.config.js
+* index的功能主要针对react-router实现页面无刷新更换内容，如果想看到index的文件，需要在webpack.config.js
 中将list的位置替换成为index，浏览器清楚缓存进行访问
-*项目clone到本地，npm start就可以直接运行，访问http://localhost:8080/list.html访问list页面
-*代码配置到index后访问http://localhost:8080/就可以访问index页面看效果
+* 项目clone到本地，npm start就可以直接运行，访问http://localhost:8080/list.html访问list页面
+* 代码配置到index后访问http://localhost:8080/就可以访问index页面看效果
 

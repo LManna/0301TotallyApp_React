@@ -35,7 +35,7 @@ npm install webpack-dev-server --save
 ```
 7.配置webpack.config.js文件
 >项目根目录下创建webpack的配置文件,webpack.config.js,所有的webpack相关配置都在这里面配置，具体参见其他相关说明
-![配置文件](https://github.com/LManna/0301TotallyApp_React/master/img/webpack配置.png)
+![配置文件](https://github.com/LManna/0301TotallyApp_React/blob/master/img/webpack%E9%85%8D%E7%BD%AE.png)
 >其中，myCode.js是输出文件，项目启动会自动创建在output的文件夹中，但是项目中是查不到该文件的；
 下面的devServer和plugins可以不写,因为是在测试自动刷新是否好用，module模块也可以不屑，这是热启动的配置；index.jsx是我们的入口js文件
 >配置package.json文件来配置项目的启动情况
@@ -87,7 +87,7 @@ module:{
 *当前的项目是单入口，仅仅针对入门级别做个记录，参照react的api进行研发实现功能
 *项目主要有两个页面，页面需要切换，更改配置才能看到另外一个；
 *当前显示的页面功能是：list页面，主要实现form提交表单即时更新列表，还有点击按钮实现写入的颜色切换；
-![listPNG](https://github.com/LManna/0301TotallyApp_React/master/img/list.png)
+![listPNG](https://github.com/LManna/0301TotallyApp_React/blob/master/img/list.png)
 *index的功能主要针对react-router实现页面无刷新更换内容，如果想看到index的文件，需要在webpack.config.js
 中将list的位置替换成为index，浏览器清楚缓存进行访问
 *项目clone到本地，npm start就可以直接运行，访问http://localhost:8080/list.html访问list页面
